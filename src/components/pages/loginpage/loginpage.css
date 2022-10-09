@@ -1,0 +1,34 @@
+.signuptitle {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.hitext {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.rounded-8 {
+  border-radius: 8px;
+}
+
+.inputemail {
+  border: 1px solid #8cdfe9;
+  height: 5rem;
+  outline: none;
+  font-size: large;
+}
+.inputemail:focus {
+  border-color: #f23b0dcd;
+  caret-color: #8cdfe9;
+}
+.text-caption {
+  font-size: 1rem;
+}
+.text-caption a {
+  text-decoration: none;
+}
+.errorshow {
+  font-size: 1rem;
+  color: #dc143c;
+  font-weight: bold;
+}
