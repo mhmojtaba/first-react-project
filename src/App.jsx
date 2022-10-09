@@ -1,6 +1,7 @@
 //import LoginPage from "./components/pages/loginpage/loginpage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import HomePage from "./components/BaSalam/Pages/HomePage";
 // import Cart from "./components/cart/cart";
 
 function App() {
@@ -16,6 +17,11 @@ function App() {
     // <div className="w-100 h-100">
     //   <LoginPage />
     // </div>
+    <>
+      <div>
+        <HomePage />
+      </div>
+    </>
   );
 }
 
