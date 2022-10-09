@@ -9,7 +9,7 @@ const HomePage = () => {
 
   useEffect(() => {
     axios
-      .get("http://fakestoreaspi.com/products")
+      .get("http://fakestoreapi.com/products")
       .then((data) => {
         setProductLisst(data.data);
       })
